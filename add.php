@@ -13,7 +13,7 @@ else
 
       $now = date("Y-m-d H:i:s");
       $link = Connection();
-	   $query = "INSERT INTO `DataLog` (`Fecha`, `Dato`) VALUES ('".$now."','".$name."')"; 
+	   $query = "INSERT INTO `BikeTracker` (`id`, `timestamp`, `lat`, `lon`, `speed`, `bearing`, `altitude`, `accuracy`, `batt`) VALUES ('".$id."','".$timestamp."','".$lat."','".$lon."','".$speed."','".$bearing."','".$altitude."','".$accuracy."','".$batt."')"; 
    	
    	mysql_query($query,$link) or die('mysql query ERROR: '. mysql_error());
 	   mysql_close($link);
@@ -21,5 +21,3 @@ else
    	header("Location: index.php");
 
 ?>
-
-
