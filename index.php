@@ -36,5 +36,3 @@
 </body>
 </html>
 
-
-id=%s&timestamp=%d&lat=%f&lon=%f&speed=%f&bearing=%.1f&altitude=%f&accuracy=%.1f&batt=%.1f"
