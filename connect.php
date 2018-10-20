@@ -6,7 +6,10 @@
 		$pass="063a1f4ec";
 		$db="biketrackerdb";
 	   	
-		$connection = mysql_connect($server, $user, $pass);
+		//$connection = mysql_connect($server, $user, $pass);
+
+		$connection = new mysqli($server, $user, $pass, $db);
+		$connection->set_charset("utf8");
 
 		if (!$connection) {
 	    	die('connection mysql ERROR: ' . mysql_error());
