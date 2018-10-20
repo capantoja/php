@@ -1,24 +1,3 @@
-<!-- <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>BikeTracker</title>
-</head>
-<body>
-
-<?php
- /*
- if(isset($_POST['name'])){ $name = $_POST['name']; echo "El dato recibido es: $name"; } 
- else { echo "No hay dato disponible"; }
- */
-
-?>
-
-</body>
-</html>
--->
-
 <?php
 
 	include("connect.php"); 	

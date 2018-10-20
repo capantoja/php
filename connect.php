@@ -1,8 +1,8 @@
 <?php
 
 	function Connection(){
-		$server=getenv('mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT');
-		$user="biketracker";
+		$server=getenv('mysql://mysql:3306/');
+		$user="biketracker_user";
 		$pass="063a1f4ec";
 		$db="biketrackerdb";
 	   	
