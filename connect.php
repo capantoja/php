@@ -1,7 +1,7 @@
 <?php
 
 	function Connection(){
-		$server=getenv('mysql://mysql:3306/');
+		$server=getenv('mysql://biketracker:3306/');
 		$user="biketracker_user";
 		$pass="063a1f4ec";
 		$db="biketrackerdb";
