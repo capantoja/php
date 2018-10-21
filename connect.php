@@ -8,7 +8,7 @@
 	   	
 		//$connection = mysql_connect($server, $user, $pass);
 
-		$connection = new mysqli($server, $user, $pass, $db);
+		$connection = new mysqli($server, $user, $pass, $db) or die('Error al conectar');
 		$connection->set_charset("utf8");
 
 		if (!$connection) {
